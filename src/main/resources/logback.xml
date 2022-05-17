@@ -8,10 +8,10 @@
 	</appender>
 
 	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>C://Users/David/Escritorio/DESARROLLO/WORKSPACES/GENERAL/nttdatacenters-logback-t1-DavidNF/logs/fichero-${byDay}.log</file>
+		<file>C://Users/David/Escritorio/DESARROLLO/WORKSPACES/GENERAL/nttdatacenters-logback-t1-DavidNF/logs/logDavidNF-${byDay}.log</file>
 
 		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-			<fileNamePattern>C://Users/David/Escritorio/DESARROLLO/WORKSPACES/GENERAL/nttdatacenters-logback-t1-DavidNF/logs/Comprimido-${byDay}-%i.zip</fileNamePattern>
+			<fileNamePattern>C://Users/David/Escritorio/DESARROLLO/WORKSPACES/GENERAL/nttdatacenters-logback-t1-DavidNF/logs/logDavidNF-${byDay}-%i.zip</fileNamePattern>
 			<minIndex>1</minIndex>
 			<maxIndex>3</maxIndex>
 
